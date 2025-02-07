@@ -1,0 +1,35 @@
+.chat-container {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.message-container {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.code-block {
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    margin: 1rem 0;
+}
+
+.code-block pre {
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.markdown-content p {
+    margin: 1rem 0;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+    margin: 1.5rem 0 1rem 0;
+}
